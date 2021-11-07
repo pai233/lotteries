@@ -26,7 +26,7 @@ const createWindow = () => {
   const Menu=electron.Menu;
   Menu.setApplicationMenu(null);
   // Open the DevTools.
-  mainWindow.webContents.openDevTools();
+  //mainWindow.webContents.openDevTools();
 
   // Emitted when the window is closed.
   mainWindow.on('closed', () => {

@@ -1,8 +1,8 @@
 {
   "name": "lotteries",
-  "productName": "lotteries",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "productName": "Lotteries",
+  "version": "1.1.0",
+  "description": "A lottery program for my teacher and you.",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -12,7 +12,7 @@
     "lint": "eslint src --color"
   },
   "keywords": [],
-  "author": "Administrator",
+  "author": "pai233",
   "license": "MIT",
   "config": {
     "forge": {
@@ -29,19 +29,17 @@
         ]
       },
       "electronPackagerConfig": {
-        "packageManager": "npm"
+        "packageManager": "npm",
+        "asar": true,
+        "overwrite": true
       },
       "electronWinstallerConfig": {
-        "name": "lotteries"
+        "name": "Lotteries"
       },
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
       "github_repository": {
-        "owner": "",
-        "name": ""
-      },
-      "windowsStoreConfig": {
-        "packageName": "",
+        "owner": "pai233",
         "name": "lotteries"
       }
     }
